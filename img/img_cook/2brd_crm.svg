@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="342" height="52" viewBox="0 0 342 52">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="92" height="52" fill="#D7DBDF" fill-opacity=".524" rx="7.2"/>
+    <g transform="translate(10.36 4.2)">
+      <rect width="140.9" height="14.06" x="47.57" y="7.53" fill="#FFE082" stroke="#FFC003" stroke-width=".5" rx="7"/>
+      <rect width="58.8" height="14.56" x="219.52" y="7.28" fill="#CFE9EB" rx="7"/>
+      <circle cx="14.84" cy="14.56" r="7" fill="#2A297D"/>
+      <text fill="#2D2626" font-family="LucidaGrande-Bold, Lucida Grande" font-size="4.234" font-weight="bold" letter-spacing="-.102">
+        <tspan x="6.785" y="30.04">Research</tspan>
+      </text>
+      <text fill="#FFF" font-family="OpenSans-ExtraBold, Open Sans" font-size="6.72" font-weight="700" letter-spacing="-.161">
+        <tspan x="12.88" y="17.08">1</tspan>
+      </text>
+      <text fill="#2D2626" font-family="LucidaGrande-Bold, Lucida Grande" font-size="4.234" font-weight="bold" letter-spacing="-.102">
+        <tspan x="44.879" y="30.04">User Flow</tspan>
+      </text>
+      <circle cx="54.6" cy="14.56" r="7" fill="#2A297D"/>
+      <text fill="#FFF" font-family="OpenSans-ExtraBold, Open Sans" font-size="6.72" font-weight="700" letter-spacing="-.161">
+        <tspan x="52.696" y="17.08">2</tspan>
+      </text>
+      <g transform="translate(5.88 32.2)">
+        <rect width="20.5" height="5.1" x=".25" y=".25" stroke="#979797" stroke-width=".5"/>
+        <text fill="#232221" font-family="OpenSans-Regular, Open Sans" font-size="3.64" letter-spacing="-.087">
+          <tspan x=".84" y="5.4">Understand </tspan>
+        </text>
+      </g>
+      <g transform="translate(5.88 38.92)">
+        <rect width="20.5" height="5.1" x=".25" y=".25" stroke="#979797" stroke-width=".5"/>
+        <text fill="#232221" font-family="OpenSans-Regular, Open Sans" font-size="3.92" letter-spacing=".046">
+          <tspan x="2.8" y="5.12">Observe </tspan>
+        </text>
+      </g>
+      <text fill="#25899F" font-family="OpenSans-Bold, Open Sans" font-size="4.536" font-weight="bold" letter-spacing="-.109">
+        <tspan x="94.258" y="5">CONCEPTUALIZATION</tspan>
+      </text>
+      <text fill="#25899F" font-family="OpenSans-Bold, Open Sans" font-size="5.04" font-weight="bold" letter-spacing="-.121">
+        <tspan x="0" y="5.28">INSPIRATION</tspan>
+      </text>
+      <text fill="#2D2626" font-family="LucidaGrande-Bold, Lucida Grande" font-size="4.234" font-weight="bold" letter-spacing="-.102">
+        <tspan x="84.59" y="30.04">Wireframes</tspan>
+      </text>
+      <circle cx="95.9" cy="14.56" r="7" fill="#2A297D"/>
+      <text fill="#FFF" font-family="OpenSans-ExtraBold, Open Sans" font-size="6.72" font-weight="700" letter-spacing="-.161">
+        <tspan x="93.996" y="17.08">3</tspan>
+      </text>
+      <text fill="#2D2626" font-family="LucidaGrande-Bold, Lucida Grande" font-size="4.234" font-weight="bold" letter-spacing="-.102">
+        <tspan x="214.567" y="30.04">Prototyping</tspan>
+      </text>
+      <circle cx="226.8" cy="14.56" r="7" fill="#2A297D"/>
+      <text fill="#FFF" font-family="OpenSans-ExtraBold, Open Sans" font-size="6.72" font-weight="700" letter-spacing="-.161">
+        <tspan x="224.84" y="17.08">6</tspan>
+      </text>
+      <text fill="#2D2626" font-family="LucidaGrande-Bold, Lucida Grande" font-size="4.234" font-weight="bold" letter-spacing="-.102">
+        <tspan x="257.903" y="30.04">User Testing</tspan>
+      </text>
+      <circle cx="271.04" cy="14.56" r="7" fill="#2A297D"/>
+      <text fill="#FFF" font-family="OpenSans-ExtraBold, Open Sans" font-size="6.72" font-weight="700" letter-spacing="-.161">
+        <tspan x="269.08" y="17.08">7</tspan>
+      </text>
+      <circle cx="315.28" cy="14.56" r="7" fill="#2A297D"/>
+      <text fill="#FFF" font-family="OpenSans-ExtraBold, Open Sans" font-size="6.72" font-weight="700" letter-spacing="-.161">
+        <tspan x="313.32" y="17.08">8</tspan>
+      </text>
+      <text fill="#2D2626" font-family="LucidaGrande-Bold, Lucida Grande" font-size="4.234" font-weight="bold" letter-spacing="-.102">
+        <tspan x="127.488" y="30.04">Mood Board</tspan>
+      </text>
+      <circle cx="139.44" cy="14.56" r="7" fill="#2A297D"/>
+      <text fill="#FFF" font-family="OpenSans-ExtraBold, Open Sans" font-size="6.72" font-weight="700" letter-spacing="-.161">
+        <tspan x="137.48" y="17.08">4</tspan>
+      </text>
+      <text fill="#2D2626" font-family="LucidaGrande-Bold, Lucida Grande" font-size="4.234" font-weight="bold" letter-spacing="-.102">
+        <tspan x="171.731" y="30.04">Style Guide</tspan>
+      </text>
+      <circle cx="181.44" cy="14.56" r="7" fill="#2A297D"/>
+      <text fill="#FFF" font-family="OpenSans-ExtraBold, Open Sans" font-size="6.72" font-weight="700" letter-spacing="-.161">
+        <tspan x="179.536" y="17.08">5</tspan>
+      </text>
+      <path fill="#000" fill-rule="nonzero" d="M41.1288889 11.73L48.1288889 14.98 41.1288889 18.23 41.128 15.229 21.73 15.23 21.73 14.73 41.128 14.729 41.1288889 11.73zM124.148889 11.59L131.148889 14.84 124.148889 18.09 124.148 15.09 104.75 15.09 104.75 14.59 124.148 14.59 124.148889 11.59zM167.268889 11.59L174.268889 14.84 167.268889 18.09 167.268 15.09 147.87 15.09 147.87 14.59 167.268 14.59 167.268889 11.59zM210.668889 11.59L217.668889 14.84 210.668889 18.09 210.668 15.09 191.27 15.09 191.27 14.59 210.668 14.59 210.668889 11.59zM255.468889 11.59L262.468889 14.84 255.468889 18.09 255.468 15.09 236.07 15.09 236.07 14.59 255.468 14.59 255.468889 11.59zM300.268889 11.59L307.268889 14.84 300.268889 18.09 300.268 15.09 280.87 15.09 280.87 14.59 300.268 14.59 300.268889 11.59zM81.3088889 11.59L88.3088889 14.84 81.3088889 18.09 81.308 15.09 61.91 15.09 61.91 14.59 81.308 14.59 81.3088889 11.59z"/>
+      <text fill="#25899F" font-family="OpenSans-Bold, Open Sans" font-size="4.536" font-weight="bold" letter-spacing=".269">
+        <tspan x="234.955" y="5">ITERATION </tspan>
+      </text>
+      <text fill="#25899F" font-family="OpenSans-Bold, Open Sans" font-size="4.536" font-weight="bold" letter-spacing=".269">
+        <tspan x="299.565" y="5.28">EXPOSITION </tspan>
+      </text>
+    </g>
+  </g>
+</svg>

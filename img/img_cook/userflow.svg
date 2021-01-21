@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1026" height="521" viewBox="0 0 1026 521">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="1022.57" height="517.77" x="1.715" y="1.755" fill="#FFF" stroke="#DDD9D8" stroke-opacity=".497" stroke-width="2.43" rx="15"/>
+    <rect width="92.5" height="22.84" x="136.445" y="25.165" fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="145.271" y="36.89">Sign Up/Log In</tspan>
+    </text>
+    <rect width="92.5" height="22.84" x="136.445" y="106.165" fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="150.985" y="117.89">Home Screen </tspan>
+    </text>
+    <rect width="92.5" height="22.84" x="136.445" y="183.115" fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="151.027" y="194.84">Filter Screen </tspan>
+    </text>
+    <path fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65" d="M226.515231,268.97477 L226.515231,295.865231 L134.01477,295.865231 L134.01477,268.97477 L226.515231,268.97477 Z"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="159.281" y="281.51">Filtered </tspan> <tspan x="141.79" y="290.122">Screen Screen </tspan>
+    </text>
+    <path fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65" d="M226.515231,339.44477 L226.515231,366.335231 L134.01477,366.33523 L134.01477,339.44477 L226.515231,339.44477 Z"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="157.639" y="351.98">Detailed </tspan> <tspan x="141.79" y="360.592">Recipe Screen </tspan>
+    </text>
+    <text fill="#FFB606" font-family="Helvetica-Bold, Helvetica" font-size="14.58" font-weight="bold">
+      <tspan x="22.9" y="38.03">Entry Point</tspan>
+    </text>
+    <path fill="#979797" fill-rule="nonzero" d="M182.284256 48.3243365L182.28996 48.7292963 182.993 98.684 186.613195 98.6335092 182.701259 106.6894 178.563993 98.7468783 182.183 98.695 181.48004 48.7407037 181.474337 48.3357438 182.284256 48.3243365zM181.474256 126.084337L181.47996 126.489296 182.183 176.444 185.803195 176.393509 181.891259 184.4494 177.753993 176.506878 181.373 176.455 180.67004 126.500704 180.664337 126.095744 181.474256 126.084337zM181.474256 207.894337L181.47996 208.299296 182.183 258.254 185.803195 258.203509 181.891259 266.2594 177.753993 258.316878 181.373 258.265 180.67004 208.310704 180.664337 207.905744 181.474256 207.894337zM182.284256 281.604337L182.28996 282.009296 182.993 331.964 186.613195 331.913509 182.701259 339.9694 178.563993 332.026878 182.183 331.975 181.48004 282.020704 181.474337 281.615744 182.284256 281.604337z"/>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="72.692" y="64.43">Automatic transition</tspan> <tspan x="96.855" y="74.43"> if the user</tspan> <tspan x="88.697" y="84.43"> doesn’t log in</tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="194.628" y="147.05">User an directly type </tspan> <tspan x="200.791" y="157.05">in Browser Bar on </tspan> <tspan x="194.815" y="167.05">top of Recipe screen </tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="63.687" y="230.48">User confirms &quot;filter” </tspan> <tspan x="66.296" y="240.48">selection by clicking </tspan> <tspan x="74.402" y="250.48">button (optional)</tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="57.607" y="312.29">User selects clicks </tspan> <tspan x="58.667" y="322.29">on Desired Recipe</tspan> <tspan x="47.1" y="332.29">After scrolling through </tspan> <tspan x="86.115" y="342.29">results </tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="53.247" y="185.12">User selects </tspan> <tspan x="47.011" y="195.12">“filter” options </tspan> <tspan x="60.127" y="205.12">(optional)</tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="111.649" y="143.81">Click on </tspan> <tspan x="99.583" y="153.81">“filters“ Icon </tspan> <tspan x="107.107" y="163.81">(optional)</tspan>
+    </text>
+    <text fill="#FFB606" font-family="Helvetica-Bold, Helvetica" font-size="14.58" font-weight="bold">
+      <tspan x="22" y="420.98">Success Criteria</tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="394.51" y="63.62">Automatic transition</tspan> <tspan x="394.51" y="73.62"> if the user</tspan> <tspan x="394.51" y="83.62"> fills in fields or </tspan> <tspan x="394.51" y="93.62">decides to skip</tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="345.91" y="199.7">User scrolls </tspan> <tspan x="345.91" y="211.85">through saved </tspan> <tspan x="345.91" y="224">recipes in the </tspan> <tspan x="345.91" y="236.15">Favorites lists </tspan> <tspan x="345.91" y="248.3">Chooses a recipe </tspan> <tspan x="345.91" y="260.45">then taps to </tspan> <tspan x="345.91" y="272.6">open Detailed </tspan> <tspan x="345.91" y="284.75">Screen </tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="409.09" y="143">Tap on </tspan> <tspan x="409.09" y="153">“Favorites“ Icon </tspan> <tspan x="409.09" y="163">on the lower </tspan> <tspan x="409.09" y="173">Navigation Bar</tspan>
+    </text>
+    <text fill="#FFB606" font-family="Helvetica-Bold, Helvetica" font-size="14.58" font-weight="bold">
+      <tspan x="331.51" y="39.83">Entry Point</tspan>
+    </text>
+    <text fill="#FFB606" font-family="Helvetica-Bold, Helvetica" font-size="14.58" font-weight="bold">
+      <tspan x="328.18" y="485.15">Success Criteria</tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="349.15" y="384.38">User taps play </tspan> <tspan x="349.15" y="394.38">Icon on Image in </tspan> <tspan x="349.15" y="404.38">Detailed Recipe </tspan> <tspan x="349.15" y="414.38">Screen &amp; Plays </tspan> <tspan x="349.15" y="424.38">Video </tspan>
+    </text>
+    <rect width="120.04" height="22.84" x="446.675" y="24.355" fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="454.47" y="36.08">Sign Up /Log In /Skip</tspan>
+    </text>
+    <rect width="92.5" height="22.84" x="461.255" y="105.355" fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="475.795" y="117.08">Home Screen </tspan>
+    </text>
+    <rect width="133" height="33.37" x="440.195" y="182.305" fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="449.638" y="192.41">Favorites Personilized </tspan> <tspan x="475.662" y="204.262">Recipe Page</tspan>
+    </text>
+    <path fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65" d="M552.13523,268.164769 L552.13523,300.725231 L459.634769,300.72523 L459.634769,268.164769 L552.13523,268.164769 Z"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="483.094" y="281.51">Detailed </tspan> <tspan x="468.586" y="291.742">Recipe Screen </tspan>
+    </text>
+    <path fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65" d="M578.86523,338.63477 L578.86523,365.525231 L439.384769,365.525231 L439.384769,338.63477 L578.86523,338.63477 Z"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="448.78" y="349.55">Ingredients on Detailed </tspan> <tspan x="471.312" y="358.972">Recipe Screen </tspan>
+    </text>
+    <path fill="#979797" fill-rule="nonzero" d="M507.094256 47.5143365L507.09996 47.9192963 507.803 97.874 511.423195 97.8235092 507.511259 105.8794 503.373993 97.9368783 506.993 97.885 506.29004 47.9307037 506.284337 47.5257438 507.094256 47.5143365zM507.094256 125.274337L507.09996 125.679296 507.803 175.634 511.423195 175.583509 507.511259 183.6394 503.373993 175.696878 506.993 175.645 506.29004 125.690704 506.284337 125.285744 507.094256 125.274337zM507.092834 218.422958L507.099938 218.827896 507.777 257.443 511.396848 257.380004 507.512796 265.449376 503.348086 257.52121 506.967 257.458 506.290062 218.842104 506.282958 218.437166 507.092834 218.422958zM508.72 301.05L508.719 331.159 512.34 331.159444 508.315 339.159444 504.29 331.159444 507.909 331.159 507.91 301.05 508.72 301.05z"/>
+    <path fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65" d="M571.57523,403.43477 L571.57523,430.32523 L447.484769,430.325231 L447.484769,403.434769 L571.57523,403.43477 Z"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="472.698" y="413.54">Video Tutorial</tspan> <tspan x="463.21" y="423.772"> of Recipe Screen </tspan>
+    </text>
+    <path fill="#979797" fill-rule="nonzero" d="M509.53,365.85 L509.529,395.959 L513.15,395.959444 L509.125,403.959444 L505.1,395.959444 L508.719,395.959 L508.72,365.85 L509.53,365.85 Z"/>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="610.533" y="275.84">User </tspan> <tspan x="596.503" y="285.84">Adjusts </tspan> <tspan x="597.23" y="295.84">Scale &amp; </tspan> <tspan x="597.085" y="305.84">serving </tspan> <tspan x="592.055" y="315.84">quantity </tspan> <tspan x="620.926" y="325.84">on </tspan> <tspan x="592.013" y="335.84">Detailed </tspan> <tspan x="599.974" y="345.84">Recipe </tspan> <tspan x="599.184" y="355.84">Screen </tspan>
+    </text>
+    <rect width="150.66" height="110.97" x="432.175" y="261.765" stroke="#FFC000" stroke-width="2.43"/>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="575.95" y="420.02">Watch Video</tspan>
+    </text>
+    <rect width="120.04" height="22.84" x="739.895" y="25.165" fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="747.69" y="36.89">Sign Up /Log In /Skip</tspan>
+    </text>
+    <rect width="92.5" height="22.84" x="753.665" y="104.545" fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="769.015" y="116.27">Home Screen </tspan>
+    </text>
+    <rect width="133" height="33.37" x="733.415" y="181.495" fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="742.858" y="194.03">Favorites Personilized </tspan> <tspan x="768.882" y="205.072">Recipe Page</tspan>
+    </text>
+    <path fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65" d="M847.78523,267.35477 L847.78523,299.915231 L755.284769,299.91523 L755.284769,267.354769 L847.78523,267.35477 Z"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="774.328" y="279.89">Detailed </tspan> <tspan x="759.82" y="288.502">Recipe Screen </tspan>
+    </text>
+    <text fill="#FFB606" font-family="Helvetica-Bold, Helvetica" font-size="14.58" font-weight="bold">
+      <tspan x="640.93" y="40.73">Entry Point</tspan>
+    </text>
+    <path fill="#979797" fill-rule="nonzero" d="M800.314256 46.7043365L800.31996 47.1092963 801.023 97.064 804.643195 97.0135092 800.731259 105.0694 796.593993 97.1268783 800.213 97.075 799.51004 47.1207037 799.504337 46.7157438 800.314256 46.7043365zM799.497736 127.698096L799.50982 128.102916 800.904 174.82 804.522769 174.712713 800.738261 182.829247 796.476354 174.952904 800.094 174.844 798.70018 128.127084 798.688096 127.722264 799.497736 127.698096zM799.860627 215.186818L799.867695 215.591756 800.64 259.869 804.260014 259.806278 800.375246 267.875306 796.21124 259.94677 799.831 259.883 799.057819 215.605893 799.05075 215.200954 799.860627 215.186818zM801.94 300.24L801.94 330.349 805.56 330.349444 801.535 338.349444 797.51 330.349444 801.13 330.349 801.13 300.24 801.94 300.24z"/>
+    <path fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65" d="M848.59523,406.674769 L848.59523,433.565231 L756.094769,433.565231 L756.094769,406.67477 L848.59523,406.674769 Z"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="766.147" y="415.16">Shopping Cart </tspan> <tspan x="784.397" y="426.202">Screen </tspan>
+    </text>
+    <path fill="#979797" fill-rule="nonzero" d="M802.75,365.04 L802.75,399.199 L806.37,399.199444 L802.345,407.199444 L798.32,399.199444 L801.94,399.199 L801.94,365.04 L802.75,365.04 Z"/>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="690.722" y="62.81">Automatic transition</tspan> <tspan x="714.885" y="72.81"> if the user</tspan> <tspan x="706.727" y="82.81"> doesn’t log in</tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="812.658" y="145.43">User an directly type </tspan> <tspan x="818.821" y="155.43">in Browser Bar on </tspan> <tspan x="812.845" y="165.43">top of Recipe screen </tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="729.679" y="142.19">Click on </tspan> <tspan x="717.613" y="152.19">“filters“ Icon </tspan> <tspan x="725.137" y="162.19">(optional)</tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="853.027" y="229.67">User selects clicks </tspan> <tspan x="854.087" y="239.67">on Desired Recipe</tspan> <tspan x="842.52" y="249.67">After scrolling through </tspan> <tspan x="881.535" y="259.67">results </tspan>
+    </text>
+    <text fill="#FFB606" font-family="Helvetica-Bold, Helvetica" font-size="14.58" font-weight="bold">
+      <tspan x="635.44" y="499.37">Success Criteria</tspan>
+    </text>
+    <path fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65" d="M874.51523,339.44477 L874.51523,366.335231 L735.034769,366.335231 L735.034769,339.44477 L874.51523,339.44477 Z"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="744.43" y="350.36">Ingredients on Detailed </tspan> <tspan x="766.962" y="359.782">Recipe Screen </tspan>
+    </text>
+    <text fill="#918888" font-family="Oxanium-Regular, Oxanium" font-size="10.393" letter-spacing=".187">
+      <tspan x="656.95" y="245.87">User scrolls </tspan> <tspan x="656.95" y="258.02">through </tspan> <tspan x="656.95" y="270.17">saved </tspan> <tspan x="656.95" y="282.32">recipes in </tspan> <tspan x="656.95" y="294.47">the </tspan> <tspan x="656.95" y="306.62">Favorites </tspan> <tspan x="656.95" y="318.77">lists </tspan> <tspan x="656.95" y="330.92">Chooses a </tspan> <tspan x="656.95" y="343.07">recipe then </tspan> <tspan x="656.95" y="355.22">taps to </tspan> <tspan x="656.95" y="367.37">open </tspan> <tspan x="656.95" y="379.52">Detailed </tspan> <tspan x="656.95" y="391.67">Screen </tspan>
+    </text>
+    <rect width="150.66" height="110.97" x="727.825" y="262.575" stroke="#FFC000" stroke-width="2.43"/>
+    <path fill="#C2E7F0" fill-opacity=".504" stroke="#6F777A" stroke-width=".65" d="M848.59523,479.57477 L848.59523,506.465231 L756.094769,506.465231 L756.094769,479.574769 L848.59523,479.57477 Z"/>
+    <text fill="#000" font-family="Oxanium-Bold, Oxanium" font-size="10.393" font-weight="bold" letter-spacing=".187">
+      <tspan x="764.287" y="488.06">Print Shopping </tspan> <tspan x="784.397" y="499.102">Screen </tspan>
+    </text>
+    <path fill="#979797" fill-rule="nonzero" d="M802.75,437.94 L802.75,472.099 L806.37,472.099444 L802.345,480.099444 L798.32,472.099444 L801.94,472.099 L801.94,437.94 L802.75,437.94 Z"/>
+    <line x1="332.95" x2="332.545" y1="47.25" y2="471.555" stroke="#FFD778" stroke-linecap="square" stroke-width=".81"/>
+    <line x1="643.45" x2="643.136" y1="42.75" y2="484.065" stroke="#FFD778" stroke-linecap="square" stroke-width=".81"/>
+    <line x1="26.05" x2="25.96" y1="42.75" y2="403.515" stroke="#FFD778" stroke-linecap="square" stroke-width=".81"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="108" viewBox="0 0 111 108">
+  <defs>
+    <filter id="mylogo-a" width="247.2%" height="256%" x="-73.6%" y="-78%" filterUnits="objectBoundingBox">
+      <feOffset dx="6" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6.5"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.196078431   0 0 0 0 0.388235294   0 0 0 0 0.415686275  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#mylogo-a)" transform="translate(29 29)">
+    <rect width="52.764" height="47.66" y="1.447" fill="#193337"/>
+    <g stroke="#FFF" transform="translate(0 7.234)">
+      <rect width="36.448" height="34.37" x="8.912" y=".432" fill="#1A424A" stroke-width=".864"/>
+      <g transform="translate(0 1.56)">
+        <path fill="#FFF" stroke-linecap="round" stroke-width=".864" d="M8.30884039 32.4964096C18.3637219 32.4964096 27.0001922 21.4196946 27.0001922 12.8639327 27.0001922 5.33828658 20.3181919 3.14867221 11.866388 2.73050543 10.7094991 2.67326647 15.044126 6.24239526 13.8335158 6.24239526 12.6229057 6.24239526 11.7137858 6.26225441 12.9243959 6.26225441 14.135006 6.26225441 9.09361739 2.56748845 10.2505063 2.62472742 18.7023102 3.04289419 25.3313113 5.33828658 25.3313113 12.8639327 25.3313113 21.4196946 16.694841 32.4964096 6.63995949 32.4964096-.0632948601 32.4964096-1.08140464 32.4964096 3.58563015 32.4964096M28.4726888 6.53195208C28.4857848 5.18611048 28.655888 4.5756233 28.9829983 4.70049054 29.4736639 4.8877914 29.9216486 5.45430498 30.6725408 6.53195208 31.5842314 7.84036988 32.0881922 9.44890369 32.0881922 11.4205612 32.0881922 13.5197025 31.8651468 15.9796165 31.573215 18.4765043 31.5441382 18.7845403 31.5317739 19.0584995 31.5361223 19.2983818L31.536137 19.2983815C31.5437887 19.7205015 31.8537636 20.0760313 32.2709036 20.1411319 32.2709036 20.1411319 32.2709036 20.1411319 32.2709036 20.1411319 33.8493038 20.3874637 33.4829456 20.2476055 31.9775597 20.3166804 29.7410445 20.4193034 29.1900825 20.6023395 30.0620086 18.8188093 31.1307571 16.6326776 31.7003228 15.1026016 31.7408819 13.0037801 31.7789777 11.0324228 31.3061734 9.41618963 30.4199026 8.0935993 29.6899468 7.00427933 29.2529764 6.43079004 28.7660045 6.23578289 28.4413566 6.10577813 28.3871202 6.68149827 28.6032953 7.96294331"/>
+        <line x1="18.102" x2="18.102" y1="6.434" y2="22.644" fill="#D8D8D8" stroke-linecap="round" stroke-width=".864"/>
+        <line x1="18.102" x2="18.102" y1="6.434" y2="22.644" fill="#1A1919" stroke-linecap="square" stroke-width="2.448"/>
+        <line x1="37.436" x2="37.303" y2="38.61" fill="#D8D8D8" stroke-linecap="square" stroke-width="2.448"/>
+        <line x1="27.968" x2="51.3" y1="15.018" y2="14.978" fill="#D8D8D8" stroke-linecap="square" stroke-width="1.584" transform="rotate(1 39.634 14.998)"/>
+      </g>
+    </g>
+    <text fill="#DDEBEB" font-family="Raleway-Bold, Raleway" font-size="5.44" font-weight="bold" letter-spacing="1.006">
+      <tspan x="21.765" y="5">DALIA</tspan> <tspan x="42.599" y="5" font-size="6.88" letter-spacing="1.407"> </tspan>
+    </text>
+    <text fill="#DDEBEB" font-family="Raleway-Bold, Raleway" font-size="5.44" font-weight="bold" letter-spacing=".486">
+      <tspan x="8.668" y="47.553">HEIDAR</tspan>
+    </text>
+    <line x1="8.904" x2=".712" y1="42.085" y2="42.033" stroke="#FFF" stroke-width=".72"/>
+  </g>
+</svg>
