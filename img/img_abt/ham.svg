@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="21" viewBox="0 0 27 21">
+  <defs>
+    <filter id="img_me-a">
+      <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.019608 0 0 0 0 0.090196 0 0 0 0 0.439216 0 0 0 1.000000 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" stroke-linecap="round" filter="url(#img_me-a)" transform="translate(-86 -63)">
+    <g transform="translate(88 65)">
+      <line x2="23.2" y1=".4" y2=".4" stroke="#979797" stroke-width="3.2"/>
+      <line x2="23.2" y1="8.4" y2="8.4" stroke="#979797" stroke-width="3.2"/>
+      <line x2="23.2" y1="17.2" y2="17.2" stroke="#979797" stroke-width="3.2"/>
+    </g>
+  </g>
+</svg>
