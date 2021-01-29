@@ -95,9 +95,15 @@ header {
     color:#000000;
 }
 
+.box{
+  background-image: url("..img/img-dt/img_1x_dt/green_bg_header1x.png");
+  padding:10px;
+  margin:50px
+}
+
 a {/* element selector */
   color:#000000;
-  background-color: transparent;
+  background-color:transparent;
   padding: 10px;
   margin: 10px;
   padding: 10px;
@@ -105,9 +111,8 @@ a {/* element selector */
   border-bottom: 2px solid #613099;
   transition: 0.2s opacity;
 }
-.container{
+.box{
   background-color: #17505C;
-  padding: 10px;
   margin: 10px;
   color:#ffffff
 }
@@ -123,4 +128,40 @@ a {/* element selector */
   border-radius:80px;
 }
 
+#welcome-box,.box{
+  background-image: url("img/img_ad4x4/0@introad4x4x0.75.png");
+  padding:100px;
+  margin:50px
+}
 
+
+
+#welcome-box,h1,#about-txt{
+font-weight:bold;
+text-align:center;
+}
+
+.container,h2,#story-title{
+  text-align:center;
+}
+
+
+header,#nav-menu,.menu-link {
+  display: inline;
+  padding: 0 1em 0 0;
+}
+
+
+ header, #page-header {
+background-color: #000000;
+ }
+ 
+ 
+ #welcome-box,#logo{
+  position:center;
+}
+
+
+header,.topper,#logo{
+  position:center;
+}

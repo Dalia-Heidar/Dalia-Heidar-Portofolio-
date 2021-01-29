@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161" height="158" viewBox="0 0 161 158">
+  <defs>
+    <filter id="nwlogo-a" width="211.8%" height="211.9%" x="-61.8%" y="-50.6%" filterUnits="objectBoundingBox">
+      <feOffset dx="-4" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.0235294118   0 0 0 0 0.121568627   0 0 0 0 0.141176471  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="nwlogo-b" x1="0%" x2="100%" y1="12.6%" y2="97.738%">
+      <stop offset="0%" stop-color="#89A9B2"/>
+      <stop offset="100%" stop-color="#7CA0A9"/>
+    </linearGradient>
+    <path id="nwlogo-c" d="M32.4364522,73.6009852 C46.0502201,73.510494 59.9484844,60.9124027 59.9484844,45.125148 C59.9484844,29.3378932 49.6696317,17.0496244 36.0558319,17.0496244 C30.2313508,17.0496244 24.4068698,17.0496244 18.5823887,17.0496244 C14.1731128,17.0496244 10.5986884,20.6240488 10.5986884,25.0333248 L10.5986884,65.6909586 C10.5986902,70.1002335 14.1731138,73.6746571 18.5823887,73.6746571 C18.5947913,73.6746571 18.6071938,73.6746282 18.6195963,73.6745704 C24.7461283,73.6460177 29.3517469,73.6214893 32.4364522,73.6009852 Z"/>
+    <filter id="nwlogo-d" width="102%" height="101.7%" x="-1%" y="-.9%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.664967799   0 0 0 0 0.726466936   0 0 0 0 0.935191279  0 0 0 1 0"/>
+    </filter>
+    <path id="nwlogo-f" d="M0.0320798198,82.0810474 C23.7643008,82.0810474 44.4692332,58.1022422 44.4692332,38.2790279 C44.4692332,20.8425334 28.3773749,14.0840072 8.42884769,13.1151385 C5.69827916,12.9825191 15.9291629,21.2519877 13.0717976,21.2519877 C10.2144327,21.2519877 8.06866551,21.2980003 10.9260305,21.2980003 C13.7833955,21.2980003 1.88436432,12.7374375 4.61493287,12.8700569 C24.5634601,13.8389255 38.2564479,19.4812378 38.2564479,36.9177323 C38.2564479,56.7409465 23.7643008,80.2497133 0.0320798198,80.2497133"/>
+    <filter id="nwlogo-e" width="167.7%" height="143.3%" x="-36.1%" y="-20.1%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.051" result="shadowSpreadOuter1"/>
+      <feOffset dx="-1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4.5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.062745098   0 0 0 0 0.0980392157   0 0 0 0 0.337254902  0 0 0 1 0"/>
+    </filter>
+    <path id="nwlogo-h" d="M0.0320798198,82.0810474 C23.7643008,82.0810474 44.4692332,58.1022422 44.4692332,38.2790279 C44.4692332,20.8425334 28.3773749,14.0840072 8.42884769,13.1151385 C5.69827916,12.9825191 15.9291629,21.2519877 13.0717976,21.2519877 C10.2144327,21.2519877 8.06866551,21.2980003 10.9260305,21.2980003 C13.7833955,21.2980003 1.88436432,12.7374375 4.61493287,12.8700569 C24.5634601,13.8389255 38.2564479,19.4812378 38.2564479,36.9177323 C38.2564479,56.7409465 23.7643008,80.2497133 0.0320798198,80.2497133"/>
+    <filter id="nwlogo-g" width="167.7%" height="143.3%" x="-36.1%" y="-20.1%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.051" result="shadowSpreadOuter1"/>
+      <feOffset dx="-1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4.5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.062745098   0 0 0 0 0.0980392157   0 0 0 0 0.337254902  0 0 0 1 0"/>
+    </filter>
+    <path id="nwlogo-j" d="M48.7706985,24.2371591 C48.8024849,20.7135989 49.2153565,19.1152768 50.009313,19.4421929 C51.2002482,19.932567 52.287589,21.4157613 54.1101417,24.2371591 C56.3229816,27.6627397 57.5461867,31.8740567 57.5461867,37.0360712 C57.5461867,42.5318523 57.0048147,48.9721756 56.2962428,55.5093003 C56.2256681,56.3157722 56.1956577,57.0330273 56.206212,57.6610653 C56.2248198,58.7662207 57.9933209,60.1566417 59.005796,60.3270822 C62.836862,60.9720057 61.2004297,61.0053296 57.5461867,60.9921582 C51.9551537,60.9720057 50.5119442,61.0749689 52.6282684,56.4054922 C55.2223165,50.6819608 56.6047567,46.6760548 56.703201,41.1811111 C56.7956665,36.0198826 55.648084,31.7884077 53.4969426,28.3257219 C51.7252063,25.4737634 50.6645992,23.9723058 49.4826294,23.4617558 C48.6946495,23.1213892 48.5630078,24.6286873 49.0877044,27.9836503"/>
+    <filter id="nwlogo-i" width="391.5%" height="186.6%" x="-144.9%" y="-26.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.051" result="shadowSpreadOuter1"/>
+      <feOffset dy="7" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4.5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0655502859   0 0 0 0 0.233675955   0 0 0 0 0.269070833  0 0 0 1 0"/>
+    </filter>
+    <path id="nwlogo-l" d="M68.0139929,3.30434797 L73.3262436,9.27221753 C73.880734,9.89514117 74.1722865,10.7086857 74.1396762,11.5420104 L71.4139236,81.1960836 C71.3836248,81.9703402 70.7314039,82.5734372 69.9571473,82.5431384 C69.8909192,82.5405467 69.8249579,82.5332652 69.7597591,82.5213487 C68.8305123,82.351508 68.1443476,81.5583786 68.1099584,80.6143644 L65.3328798,4.38105902 C65.302011,3.53368341 65.9639206,2.82172566 66.8112962,2.79085689 C67.2686933,2.77419452 67.7096741,2.96247117 68.0139929,3.30434797 Z"/>
+    <filter id="nwlogo-k" width="208.7%" height="108.5%" x="-64.9%" y="-1.6%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#nwlogo-a)" transform="translate(42.06 32.07)">
+    <g transform="translate(.147)">
+      <rect width="73.111" height="63.972" x="6.029" y="12.48" fill="#155059" fill-rule="nonzero" stroke="url(#nwlogo-b)" stroke-width="5.483" rx="8.905"/>
+      <use fill="#000" xlink:href="#nwlogo-c"/>
+      <use fill="#000" filter="url(#nwlogo-d)" xlink:href="#nwlogo-c"/>
+      <g transform="translate(0 .022)">
+        <g fill-rule="nonzero" stroke-linecap="round">
+          <use fill="#000" filter="url(#nwlogo-e)" xlink:href="#nwlogo-f"/>
+          <use fill="#FFF" stroke="#FFF" stroke-width="2.103" xlink:href="#nwlogo-f"/>
+        </g>
+        <g fill-rule="nonzero" stroke-linecap="round">
+          <use fill="#000" filter="url(#nwlogo-g)" xlink:href="#nwlogo-h"/>
+          <use fill="#FFF" stroke="#FFF" stroke-width="2.103" xlink:href="#nwlogo-h"/>
+        </g>
+        <g fill-rule="nonzero" stroke-linecap="round">
+          <use fill="#000" filter="url(#nwlogo-i)" xlink:href="#nwlogo-j"/>
+          <use fill="#FFF" stroke="#FFF" stroke-width="2.103" xlink:href="#nwlogo-j"/>
+        </g>
+        <use fill="#000" filter="url(#nwlogo-k)" xlink:href="#nwlogo-l"/>
+        <use fill="#FFF" xlink:href="#nwlogo-l"/>
+        <path fill="#FFF" d="M58.5298783,17.1501182 C59.9081908,17.1501182 61.0255339,18.2674613 61.0255339,19.6457739 C61.0255339,19.6759548 61.0249864,19.7061332 61.0238917,19.7362943 L59.3562741,65.6824049 C59.3398304,66.135461 58.9592256,66.4894053 58.5061695,66.4729616 C58.4636696,66.4714191 58.4213538,66.4665761 58.3796044,66.4584764 C57.8288615,66.3516289 57.4256093,65.8775125 57.408536,65.3167606 L56.0207563,19.7367984 C55.9785642,18.3510487 57.0677329,17.1934731 58.4534827,17.1512809 C58.4789405,17.1505058 58.5044086,17.1501182 58.5298783,17.1501182 Z" transform="rotate(90 58.53 41.896)"/>
+      </g>
+      <path fill="#FFF" d="M19.2603744,18.9393682 L25.359493,18.9393682 L25.359493,63.9802123 C24.4977258,65.4113195 23.5585823,66.6418434 22.5420626,67.671784 C21.5255428,68.7017247 20.4316468,69.531082 19.2603744,70.1598561 L19.2603744,18.9393682 Z"/>
+    </g>
+  </g>
+</svg>
