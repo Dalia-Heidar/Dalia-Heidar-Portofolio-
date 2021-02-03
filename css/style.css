@@ -110,13 +110,13 @@
                 margin-left: auto;
             }
             
-            ul.show-mobile_hide-desktop li .menu-link {
+            ul.show-mobile_hide-desktop>li .menu-link {
                 list-style-type: none;
                 float: left;
                 line-height: 30px;
             }
             
-            ul.show-mobile_hide-desktop li .menu-link a {
+            ul.show-mobile_hide-desktop>li .menu-link>a {
                 display: block;
                 text-decoration: none;
                 font-size: 14px;
