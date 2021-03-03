@@ -1,6 +1,7 @@
     * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
     
     body {
@@ -14,17 +15,29 @@
         /* Sets the line-height to 1.6 * the font-size */
         color: #4a4a4a;
     }
+    
+    main {
+        padding-top: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .about {
+        margin: 0;
+        width: 100%;
+        height: auto:
+    }
     /* :::::::::::::::::::::::::::::: TYPOGRAPHY */
     
     h1,
     h2,
     h3,
     h4 {
-        line-height: 100px;
+        line-height: 2em;
     }
     
     h1 {
-        font-size: 2.75em;
+        font-size: 2em;
         font-weight: 700;
     }
     
@@ -41,6 +54,15 @@
     h4 {
         font-size: 1.35em;
         font-weight: 400;
+    }
+    
+    ul {
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    #logo_name {
+        line-height: 2em;
     }
     /* :::::::::::::::::::::::::::::: IMAGES */
     
@@ -126,6 +148,7 @@
         text-transform: uppercase;
         border-radius: 20px;
         margin-bottom: 400px;
+        padding: 10px;
     }
     
     #welcome-box,
@@ -148,30 +171,55 @@
     
     #page-header {
         background-color: #040D38;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
     }
     
     #nav-menu {
         background-color: #040D38;
         width: 100%;
-        height: 20px;
+        color: #fff
+    }
+    
+    #nav-menu>ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    #nav-menu>ul>li {
+        display: inline-block;
+    }
+    
+    #nav-menu>ul>li>a {
+        padding: 0 15px;
+        text-transform: uppercase;
+        font-weight: 700pt;
         color: #fff
     }
     /* :::::::::::::::::::::::::::::: LAYOUT */
     
     .row {
         margin: 25px 0;
-        /25px top and bottom,
-        0 left and right /
+        /*25px top and bottom,
+        0 left and right */
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
     }
     /* :::::::::::::::::::::::::::::: HOMEPAGE */
     /* :::::::::::::::::::::::::::::: ABOUT PAGE */
     
     #welcome-box,
     .box {
-        background-image: url("../img/img_abt/2nw_gn_bg1x.png");
+        background-image: url("img/img-m/images_2x_M/s_abt_bkgrndx2.png");
         background-size: cover;
         background-position: left top;
-        padding: 100px;
+        padding: 0px;
         margin: 0px;
     }
     
@@ -186,12 +234,9 @@
     #story-title {
         text-align: center;
     }
+    /* :::::::::::::::::::::::::::::: Footer*/
     
-    .box {
-        background-image: url("..img/img-dt/img_1x_dt/green_bg_header1x.png");
-        padding: 10px;
-        margin: 50px background-color: #ddebeb;
-        margin: 10px;
-        color: #ffffff
+    #contact {
+        text-align: center;
     }
     /* :::::::::::::::::::::::::::::: MEDIA QUERIES (In lesson 1.8) */
