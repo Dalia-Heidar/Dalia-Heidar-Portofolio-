@@ -26,45 +26,34 @@
 </head>
 
 <body>
-
     <header id="page-header">
-        <div>
-            <div>
-                <!--open container section-->
-                <a href="about_dalia_heidar.html" id="logo_name" target="_self">Dalia Heidar</a>
-
-                <nav id="nav-menu">
-                    <a href="#" class="hide-desktop"></a>
-                    <img src="img/img_abt/ham.svg" alt="toggle-menu" class="menu" id="hamenu">
-                    <ul class="show-mobile_hide-desktop" id="nav">
-                        <li><a class="menu-link" href="index.html" target="_self">Work</a></li>
-                        <li><a class="menu-link" href="about_dalia_heidar.html" target="_self">About</a></li>
-                        <li><a class="menu-link" href="contacts.html" target="_self">Contact</a></li>
-                    </ul>
-                </nav>
-
-            </div>
+        <div class="container">
+            <!--open container section-->
+            <a href="about_dalia_heidar.html" id="logo_name" target="_self"><img src="../img/img-dt/mylogo.svg" alt="logo"> Dalia Heidar</a>
+            <nav id="nav-menu">
+                <ul id="nav">
+                    <li><a class="menu-link" href="index.html" target="_self">Work</a></li>
+                    <li><a class="menu-link" href="about_dalia_heidar.html" target="_self">About</a></li>
+                    <li><a class="menu-link" href="contacts.html" target="_self">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main>
-
-        <div>
+        <div class="work_hero">
             <!--this is the begining of the container-->
             <div class="container">
                 <!--this is the hero/welcome block start-->
-
-
                 <div id="welcome-section">
                     <img id="logo" src="img/nwlogo.svg" alt="Dalia's-logo">
-                    <h1>Hi, I'm Dalia Heidar
-                        <span> I'm a US, UI/UX Researcher and Designer</span>
+                    <h1 class="h1_hero">Hi, I'm Dalia Heidar
+                        <span class="sp_hero"> I'm a US, UI/UX Researcher and Designer</span>
                     </h1>
-                    <p>I have a Ph.D. in Design & a background in Interior Architecture, Digital Design & Research. Experienced in Visual Design,User Interactions,research & analysis & enjoy working within a collaborative team. Currently,I'm working on Front-End
+                    <p class="p_hero">I have a Ph.D. in Design & a background in Interior Architecture, Digital Design & Research. Experienced in Visual Design,User Interactions,research & analysis & enjoy working within a collaborative team. Currently,I'm working on Front-End
                         Developer Certification.
                     </p>
                 </div>
-
             </div>
             <!--end of hero/welcome section-->
         </div>
@@ -75,64 +64,62 @@
         <!--this is the opening of the  Work container consisting of 2-3 projects-->
         <div id="work-section">
             <!--begining of work project container-->
+            <div class="container">
+                <h2 class="w_title">My Work</h2>
+                <div class="row">
+                    <!--open a row with 2 columns-->
+                    <div>
+                        <!--open 1st column containd picture-->
 
-            <h2>My Work</h2>
-            <div class="card-grid_row">
-                <!--open a row with 2 columns-->
+                        <picture id="pic1">
+                            <source srcset="img/img-dt/img_1x_dt/desktop_elcook_coverx1.png" media="(max-width:767px)">
+                            <img src="img/img-dt/Img_2X_dt/desktop_elcook_cover2x.png" alt="El-COOK">
+                        </picture>
 
-                <div class=“project-card”>
-                    <!--open 1st column containd picture-->
+                    </div>
+                    <!--end of 1st column-->
 
-                    <picture id="pic1">
-                        <source srcset="img/img-dt/img_1x_dt/desktop_elcook_coverx1.png" media="(max-width:767px)">
-                        <img src="img/img-dt/Img_2X_dt/desktop_elcook_cover2x.png" alt="El-COOK">
-                    </picture>
+                    <div>
+                        <!--open 2nd column with description and button-->
+                        <h3>EL COOK</h3>
+                        <p>
+                            This is an intuitive Application , where you can easily find Recipes with your Choice ,through your own local community (Instructional Articles, tutorial Videos and shows.) with delivery options.
+                        </p>
+                        <p> Applications used Sketch, Adobe Photshop, InVision</p>
 
+                        <a class=“button” href="cook.html" target="_blank" id="project-btn">Check It Out</a>
+                    </div>
+                    <!--end 2nd column-->
                 </div>
-                <!--end of 1st column-->
+                <!--end container of El cook project-->
 
-                <div class="container">
-                    <!--open 2nd column with description and button-->
-                    <h3>EL COOK</h3>
-                    <p>
-                        This is an intuitive Application , where you can easily find Recipes with your Choice ,through your own local community (Instructional Articles, tutorial Videos and shows.) with delivery options.
-                    </p>
-                    <p> Applications used Sketch, Adobe Photshop, InVision</p>
 
-                    <a class=“button” href="cook.html" target="_blank" id="project-btn">Check It Out</a>
+
+                <div class="row">
+                    <div>
+                        <!--open 1st column- 2nd row (second project) -->
+
+                        <picture id="pic2">
+                            <source srcset="img/img-dt/img_1x_dt/dt_ad4x4_cover1X.png" media="(max-width:767px)">
+                            <img src="img/img-dt/Img_2X_dt/dt_ad4x4_cover2X.png" alt="AD4X4 Logbook">
+                        </picture>
+
+                    </div>
+                    <!--end of 1st column-->
+
+                    <div>
+                        <!--open 2nd column with description and button-->
+                        <h3> AD4X4 Logbook</h3>
+                        <p>
+                            This is  real product for a digital Log-Book App dedicated to Record, Monitor and Up-grade Members of an Off-Road Driving Club.
+                        </p>
+                        <p> Applications used Sketch, Adobe Photshop, InVision</p>
+                        <a class=“button” href="ad4x4.html" target="_blank" id="project-btn">Check it Out</a>
+                    </div>
+                    <!--end 2nd column-->
                 </div>
-                <!--end 2nd column-->
+                <!--end container of ad4x4 project-->
             </div>
-            <!--end container of El cook project-->
-
-
-
-            <div class="card-grid_row">
-                <div class=“project-card”>
-                    <!--open 1st column- 2nd row (second project) -->
-
-                    <picture id="pic2">
-                        <source srcset="img/img-dt/img_1x_dt/dt_ad4x4_cover1X.png" media="(max-width:767px)">
-                        <img src="img/img-dt/Img_2X_dt/dt_ad4x4_cover2X.png" alt="AD4X4 Logbook">
-                    </picture>
-
-                </div>
-                <!--end of 1st column-->
-
-                <div class="container">
-                    <!--open 2nd column with description and button-->
-                    <h3> AD4X4 Logbook</h3>
-                    <p>
-                        This is  real product for a digital Log-Book App dedicated to Record, Monitor and Up-grade Members of an Off-Road Driving Club.
-                    </p>
-                    <p> Applications used Sketch, Adobe Photshop, InVision</p>
-                    <a class=“button” href="ad4x4.html" target="_blank" id="project-btn">Check it Out</a>
-                </div>
-                <!--end 2nd column-->
-
-            </div>
-            <!--end container of ad4x4 project-->
-
         </div>
     </main>
 
