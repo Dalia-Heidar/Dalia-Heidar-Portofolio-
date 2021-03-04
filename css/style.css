@@ -1,242 +1,352 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        background-color: #f9f9f9;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        /* Sets the font size to 16px */
-        font-weight: 300;
-        /* Sets the font weight to 300 */
-        line-height: 3em;
-        /* Sets the line-height to 1.6 * the font-size */
-        color: #4a4a4a;
-    }
-    
-    main {
-        padding-top: 330px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .about {
-        margin: 0;
-        width: 100%;
-        height: auto:
-    }
-    /* :::::::::::::::::::::::::::::: TYPOGRAPHY */
-    
-    h1,
-    h2,
-    h3,
-    h4 {
-        line-height: 2em;
-    }
-    
-    h1 {
-        font-size: 2em;
-        font-weight: 700;
-    }
-    
-    h2 {
-        font-size: 2.25em;
-        font-weight: 700;
-    }
-    
-    h3 {
-        font-size: 1.75em;
-        font-weight: 400;
-    }
-    
-    h4 {
-        font-size: 1.35em;
-        font-weight: 400;
-    }
-    
-    ul {
-        margin: 20px;
-        padding: 20px;
-    }
-    
-    #logo_name {
-        line-height: 2em;
-    }
-    /* :::::::::::::::::::::::::::::: IMAGES */
-    
-    img {
-        width: 100%;
-    }
-    /* :::::::::::::::::::::::::::::: LINKS */
-    
-    a {
-        color: #ff7f50;
-        text-decoration: none;
-        /* No underlining */
-    }
-    
-    a:hover,
-    a:focus {
-        color: #cc6540;
-        text-decoration: underline;
-    }
-    
-    a:visited {
-        /* visited link */
-        /* color: #ff7f50; */
-        /* We suggest using a different color here */
-        color: gray;
-    }
-    
-    a:active {
-        /* selected link */
-        color: #994c30;
-    }
-    /* :::::::::::::::::::::::::::::: BUTTONS */
-    
-    .button {
-        display: inline-block;
-        background-color: #ffffff;
-        color: #17505C;
-        font-weight: 400;
-        padding: 10px;
-        border-radius: 3px;
-        border-bottom: 2px solid #ffffff;
-        transition: 0.2s opacity;
-        border-radius: 100px;
-    }
-    
-    .button:hover {
-        opacity: 0.8;
-        /* Reduces the opacity of the button to 80% */
-        text-decoration: none;
-    }
-    
-    .button.contact {
-        background-color: #893795;
-        color: #ffffff;
-        text-transform: uppercase;
-        border: 2px solid #893795;
-        border-radius: 20px;
-    }
-    
-    .button.contact:hover {
-        background-color: #ffffff;
-        color: #000000;
-        opacity: 0.8;
-        /* Reduces the opacity of the button to 80% */
-        text-decoration: none;
-    }
-    
-    .button-icon {
-        display: inline-block;
-        background-color: transparent;
-        color: #17505C;
-        font-weight: 400;
-        padding: 10px;
-        border-radius: 3px;
-        border-bottom: transparent;
-        transition: 0.2s opacity;
-        border-radius: 80px;
-    }
-    
-    #project-btn {
-        background-color: #893795;
-        color: #ffffff;
-        text-transform: uppercase;
-        border-radius: 20px;
-        margin-bottom: 400px;
-        padding: 10px;
-    }
-    
-    #welcome-box,
-    .box {
-        background-image: url("../img/img_abt/2nw_gn_bg1x.png");
-        background-size: cover;
-        background-position: left top;
-        padding: 100px;
-        margin: 0px;
-    }
-    /* :::::::::::::::::::::::::::::: NAVIGATION */
-    
-    #logo {
-        max-width: 150px;
-    }
-    
-    #logo_name {
-        color: #ffffff
-    }
-    
-    #page-header {
-        background-color: #040D38;
-        padding: 10px;
-        text-align: center;
-        position: fixed;
-        width: 100%;
-    }
-    
-    #nav-menu {
-        background-color: #040D38;
-        width: 100%;
-        color: #fff
-    }
-    
-    #nav-menu>ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    #nav-menu>ul>li {
-        display: inline-block;
-    }
-    
-    #nav-menu>ul>li>a {
-        padding: 0 15px;
-        text-transform: uppercase;
-        font-weight: 700pt;
-        color: #fff
-    }
-    /* :::::::::::::::::::::::::::::: LAYOUT */
-    
-    .row {
-        margin: 25px 0;
-        /*25px top and bottom,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    /* Sets the font size to 16px */
+    font-weight: 300;
+    /* Sets the font weight to 300 */
+    line-height: 3em;
+    /* Sets the line-height to 1.6 * the font-size */
+    color: #4a4a4a;
+}
+
+main {
+    padding-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    margin: 0;
+    width: 100%;
+    height: auto:
+}
+
+
+/* :::::::::::::::::::::::::::::: TYPOGRAPHY */
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 2em;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+}
+
+ul {
+    margin: 20px;
+    padding: 20px;
+}
+
+#logo_name {
+    line-height: 1em;
+    display: block;
+}
+
+
+/* :::::::::::::::::::::::::::::: IMAGES */
+
+img {
+    width: 100%;
+}
+
+
+/* :::::::::::::::::::::::::::::: LINKS */
+
+a {
+    color: #ff7f50;
+    text-decoration: none;
+    /* No underlining */
+}
+
+a:hover,
+a:focus {
+    color: #cc6540;
+    text-decoration: underline;
+}
+
+a:visited {
+    /* visited link */
+    /* color: #ff7f50; */
+    /* We suggest using a different color here */
+    color: gray;
+}
+
+a:active {
+    /* selected link */
+    color: #994c30;
+}
+
+
+/* :::::::::::::::::::::::::::::: BUTTONS */
+
+.button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #17505C;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #ffffff;
+    transition: 0.2s opacity;
+    border-radius: 100px;
+}
+
+.button:hover {
+    opacity: 0.8;
+    /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
+}
+
+.button.contact {
+    background-color: #893795;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 2px solid #893795;
+    border-radius: 20px;
+}
+
+.button.contact:hover {
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 0.8;
+    /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
+}
+
+.button-icon {
+    display: inline-block;
+    background-color: transparent;
+    color: #17505C;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: transparent;
+    transition: 0.2s opacity;
+    border-radius: 80px;
+}
+
+#project-btn {
+    background-color: #893795;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-bottom: 400px;
+    padding: 10px;
+}
+
+#welcome-box,
+.box {
+    background-image: url("../img/img_abt/2nw_gn_bg1x.png");
+    background-size: cover;
+    background-position: left top;
+    padding: 100px;
+    margin: 0px;
+}
+
+
+/* :::::::::::::::::::::::::::::: NAVIGATION */
+
+#logo {
+    max-width: 2em;
+    line-height: 1em;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#dalname {
+    color: #ffffff;
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+    line-height: 0em;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+#top {
+    margin: 0;
+    padding: 0;
+}
+
+#page-header {
+    background-color: #040D38;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+#nav-menu {
+    background-color: #040D38;
+    width: auto;
+    color: #fff
+}
+
+#nav-menu>ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav-menu>ul>li {
+    display: inline-block;
+}
+
+#nav-menu>ul>li>a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700pt;
+    color: #fff
+}
+
+
+/* :::::::::::::::::::::::::::::: LAYOUT */
+
+.row {
+    margin: 25px 0;
+    /*25px top and bottom,
         0 left and right */
-    }
-    
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
-    /* :::::::::::::::::::::::::::::: HOMEPAGE */
-    /* :::::::::::::::::::::::::::::: ABOUT PAGE */
-    
-    #welcome-box,
-    .box {
-        background-image: url("img/img-m/images_2x_M/s_abt_bkgrndx2.png");
-        background-size: cover;
-        background-position: left top;
-        padding: 0px;
-        margin: 0px;
-    }
-    
-    #welcome-box,
-    h1,
-    #about-txt {
-        font-weight: bold;
-        text-align: center;
-    }
-    
-    h2,
-    #story-title {
-        text-align: center;
-    }
-    /* :::::::::::::::::::::::::::::: Footer*/
-    
-    #contact {
-        text-align: center;
-    }
-    /* :::::::::::::::::::::::::::::: MEDIA QUERIES (In lesson 1.8) */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* :::::::::::::::::::::::::::::: HOMEPAGE */
+
+
+/* :::::::::::::::::::::::::::::: ABOUT PAGE */
+
+#welcome-box,
+.box {
+    background-image: url("img/img-m/images_2x_M/s_abt_bkgrndx2.png");
+    background-size: cover;
+    background-position: left top;
+    padding: 0px;
+    margin: 0px;
+}
+
+#welcome-box,
+h1,
+#about-txt {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2,
+#story-title {
+    text-align: center;
+}
+
+
+/* :::::::::::::::::::::::::::::: Footer*/
+
+#contact {
+    text-align: center;
+}
+
+
+/* :::::::::::::::::::::::::::::: MEDIA QUERIES (In lesson 1.8) */
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+
+@media only screen and (min-width: 640px) {}
+
+.page-header {
+    text-align: unset;
+    padding: 20px 0 13px;
+}
+
+nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+}
+
+#hero span {
+    display: block;
+}
+
+main {
+    padding-top: 99px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-md-6 {
+    width: 50%;
+    padding: 10px;
+}
+
+.col-md-8 {
+    width: 70%;
+    padding: 10px;
+    float: left;
+}
+
+.col-md-4 {
+    width: 30%;
+    padding: 10px;
+    float: right;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+#about-page h3 {
+    margin-top: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    float: left;
+}
+
+#dalname {
+    float: left;
+}
