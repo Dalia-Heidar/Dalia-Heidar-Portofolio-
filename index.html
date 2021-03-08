@@ -29,7 +29,7 @@
 
 <body>
     <header id="page-header">
-        <div class="container" id="top">
+        <div id="top">
             <!--open container section-->
             <img id="logo" src="img/img-dt/logoedit.svg" alt="Dalia's-logo">
             <a href="about_dalia_heidar.html" id="dalname" target="_self">Dalia Heidar</a>
@@ -50,16 +50,21 @@
             <div>
                 <!--this is the hero/welcome block start-->
                 <div id="welcome-section">
-                    <picture>
+                    <picture class="intropic">
                         <source srcset="img/img-m/images_2x_M/sml_bgrd_hdrx2.png" alt="mobile screens displayed" media="(max-width:767px)"></source>
                         <img src="img/img-dt/Img_2X_dt/l_bkgrnd_hdrx2.png" alt="El-COOK">
                     </picture>
-                    <h1 class="h1_hero">Hi, I'm Dalia Heidar
-                        <span class="sp_hero"> I'm a US, UI/UX Researcher and Designer</span>
-                    </h1>
-                    <p class="p_hero">I have a Ph.D. in Design & a background in Interior Architecture, Digital Design & Research. Experienced in Visual Design,User Interactions,research & analysis & enjoy working within a collaborative team. Currently,I'm working on Front-End
-                        Developer Certification.
-                    </p>
+                    <div id="intro">
+                        <h1 class="h1_hero">Hi, I'm Dalia Heidar
+
+                            <span class="sp_hero"> I'm a US, UI/UX Researcher and Designer</span>
+                        </h1>
+                        <article>
+                            <p class="p_hero">I have a Ph.D. in Design & a background in Interior Architecture, Digital Design & Research. Experienced in Visual Design,User Interactions,research & analysis & enjoy working within a collaborative team. Currently,I'm working
+                                on Front-End Developer Certification.
+                            </p>
+                        </article>
+                    </div>
                 </div>
             </div>
             <!--end of hero/welcome section-->
@@ -86,7 +91,7 @@
 
                     </div>
                     <!--end of 1st column-->
-                    < class="col-md-6">
+                    <div class="col-md-6">
                         <!--open 2nd column with description and button-->
                         <h3>EL COOK</h3>
                         <p>
@@ -95,8 +100,8 @@
                         <p> Applications used Sketch, Adobe Photshop, InVision</p>
 
                         <a class=“button” href="cook.html" target="_blank" id="project-btn">Check It Out</a>
-                        </>
-                        <!--end 2nd column-->
+                    </div>
+                    <!--end 2nd column-->
                 </div>
             </div>
             <!--end container of El cook project-->

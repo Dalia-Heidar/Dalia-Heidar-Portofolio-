@@ -29,7 +29,7 @@
 
 <body>
     <header id="page-header">
-        <div class="container" id="top">
+        <div id="top">
             <!--open container section-->
             <img id="logo" src="img/img-dt/logoedit.svg" alt="Dalia's-logo">
             <a href="about_dalia_heidar.html" id="dalname" target="_self">Dalia Heidar</a>
@@ -47,17 +47,19 @@
 
     <main>
         <!--this is the hero/welcome bloc start-->
-        <div class="container">
+        <div class="start">
             <!--this is the begining of the container-->
 
-            <div id="welcome-box" class="box">
+            <div id="welcome-box">
                 <!--begining of welcome box with photo sector of page-->
 
-                <h1 class="about-txt">About</h1>
-                <picture class="about">
-                    <source srcset="img/img-m/images_2x_M/s_abt_bkgrndx2.png" alt="mobile screens displayed" media="(max-width:767px)"></source>
-                    <img src="img/img-dt/Img_2X_dt/l_abt_bkgrndx2.png" alt="Picture of Dalia">
-                </picture>
+                <h1 id="about_txt">About</h1>
+                <div id="me">
+                    <picture class="about">
+                        <source srcset="../img/img_abt/img_me.png" alt="mobile screens displayed" media="(max-width:767px)"></source>
+                        <img src="../img/img-dt/img_1x_dt/mypic.png" alt="Picture of Dalia">
+                    </picture>
+                </div>
             </div>
             <!--closing of welcome box with photo sector of page-->
 
@@ -68,20 +70,20 @@
 
                         <h2 id="story-title"> My Story Today</h2>
 
+                        <article>
+                            <p> Hi, I'm a UI/UX Designer with a PhD in Design from the Faculty of Fine Arts. My diverse experience and passion led me to specialize in UI/UX design; as I have a background that blends Interior Architecture, Visual digital design,
+                                research/analysis, sales/marketing and managing groups of Junior designer / students.
 
-                        <p> Hi, I'm a UI/UX Designer with a PhD in Design from the Faculty of Fine Arts. My diverse experience and passion led me to specialize in UI/UX design; as I have a background that blends Interior Architecture, Visual digital design,
-                            research/analysis, sales/marketing and managing groups of Junior designer / students.
+                            </p>
 
-                        </p>
+                            <p> Given my background, my transition to UX/UI design felt natural, where human-centered ingenuity is at its core. I graduated with honors (second of my graduation class) as a hard worker with an analytical problem-solving mentality.
+                                I have worked as a UI/UX freelancer and enjoyed working with a team and with clients analyzing user centered design requirements.
+                            </p>
 
-                        <p> Given my background, my transition to UX/UI design felt natural, where human-centered ingenuity is at its core. I graduated with honors (second of my graduation class) as a hard worker with an analytical problem-solving mentality.
-                            I have worked as a UI/UX freelancer and enjoyed working with a team and with clients analyzing user centered design requirements.
-                        </p>
-
-                        <p> I am preparing for a “Front End Design” Certificate to enhance my ability to assist and work with developers, while designing prototypes. I want to make a difference in creating efficient seamless aesthetical user centered experiences
-                            that help market products.
-                        </p>
-
+                            <p> I am preparing for a “Front End Design” Certificate to enhance my ability to assist and work with developers, while designing prototypes. I want to make a difference in creating efficient seamless aesthetical user centered
+                                experiences that help market products.
+                            </p>
+                        </article>
                         <a href="file/latest_resume.pdf" target="_blank" class=“button” download> Download my Resume </a>
 
                     </div>
@@ -93,64 +95,64 @@
             <!--end of hero/welcome section-->
             <div class="row">
                 <!--opening skills and tools portion-->
-                <div class="col-md-4">
-                    <h2> Skills & Tools</h2>
 
-                    <div>
-                        <!--begining first column first row-->
-                        <h3> Relevent Skills </h3>
+                <h2> Skills & Tools</h2>
 
-                        <h4>UI Design Skills</h4>
-                        <ul>
-                            <li>User Interface Elements ,Patterns & Hierarchy</li>
-                            <li>Design Principles ,Heuristics & Style Guides</li>
-                            <li>Wireframing (Low, Mid& High-Fidelity)</li>
-                            <li>Building a cohesive brand</li>
-                            <li>Typography,Icononography & Symbol Design</li>
-                            <li> Mobile App Design</li>
-                            <li>Design Systems</li>
-                            <li>Responsive Web App</li>
-                            <li>Responsive Grids</li>
-                            <li>nteraction Design & Animation </li>
-                            <li>Motion Design </li>
-                            <li>3D Illustration</li>
-                        </ul>
-                    </div>
-                    <!--end of first column first row-->
 
-                    <div>
-                        <!--begining second column first row-->
-                        <h4>UX Design Skills</h4>
-                        <ul>
-                            <li>User Experience & Design Thinking</li>
-                            <li>User Psycology</li>
-                            <li>Information Architecture</li>
-                            <li>User Testing User Research</li>
-                            <li>Interpeting & Analyzing Business Requirements </li>
-                            <li> Personas & User Stories</li>
-                            <li>User Flows and Journeys</li>
-                            <li>Web Design (In Progress)</li>
-                        </ul>
-                    </div>
-                    <!--end of second column first row-->
-
-                    <div>
-                        <!--begining second row, second column -->
-                        <h4>Tools</h4>
-                        <ul>
-                            <li>SKETCH • FIGMA • InVision</li>
-                            <li>Adobe Suite (Illustrator- Photoshop- XD-Dimensions)</li>
-                            <li>Marval • Balsamiq • Flinto </li>
-                            <li>Sketchup • Vray</li>
-                            <li>3DMAX, Autodesk Certificates </li>
-                            <li>Certified Professional “REVIT® Architecture” 2020 Designer , AUTODESK Corp, CERTIFORT 2019 (ID#90066632)</li>
-                            <li>Microsoft Office</li>
-                            <li>Freehand • Painting and sketching </li>
-                        </ul>
-                    </div>
-                    <!--end of second row ,first column -->
+                <!--begining first column first row-->
+                <h3 class="r_skl"> Relevent Skills </h3>
+                <div class="col-md-6 col-lg-4">
+                    <h4>UI Design Skills</h4>
+                    <ul>
+                        <li>User Interface Elements ,Patterns & Hierarchy</li>
+                        <li>Design Principles ,Heuristics & Style Guides</li>
+                        <li>Wireframing (Low, Mid& High-Fidelity)</li>
+                        <li>Building a cohesive brand</li>
+                        <li>Typography,Icononography & Symbol Design</li>
+                        <li> Mobile App Design</li>
+                        <li>Design Systems</li>
+                        <li>Responsive Web App</li>
+                        <li>Responsive Grids</li>
+                        <li>nteraction Design & Animation </li>
+                        <li>Motion Design </li>
+                        <li>3D Illustration</li>
+                    </ul>
                 </div>
+                <!--end of first column first row-->
+
+                <div class="col-md-6 col-lg-4">
+                    <!--begining second column first row-->
+                    <h4>UX Design Skills</h4>
+                    <ul>
+                        <li>User Experience & Design Thinking</li>
+                        <li>User Psycology</li>
+                        <li>Information Architecture</li>
+                        <li>User Testing User Research</li>
+                        <li>Interpeting & Analyzing Business Requirements </li>
+                        <li> Personas & User Stories</li>
+                        <li>User Flows and Journeys</li>
+                        <li>Web Design (In Progress)</li>
+                    </ul>
+                </div>
+                <!--end of second column first row-->
+
+                <div class="col-md-6 col-lg-4">
+                    <!--begining second row, second column -->
+                    <h4>Tools</h4>
+                    <ul>
+                        <li>Sketch • Figma • InVision</li>
+                        <li>Adobe Suite (Illustrator- Photoshop- XD-Dimensions)</li>
+                        <li>Marval • Balsamiq • Flinto </li>
+                        <li>Sketchup • Vray</li>
+                        <li>3DMAX, Autodesk Certificates </li>
+                        <li>Certified Professional “REVIT® Architecture” 2020 Designer , AUTODESK Corp, CERTIFORT 2019 (ID#90066632)</li>
+                        <li>Microsoft Office</li>
+                        <li>Freehand • Painting and sketching </li>
+                    </ul>
+                </div>
+                <!--end of second row ,first column -->
             </div>
+        </div>
     </main>
     <!--this is the closing of the container-->
 
