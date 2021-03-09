@@ -22,13 +22,6 @@ main {
     margin-right: auto;
 }
 
-.about #welcome-box {
-    margin: 0;
-    max-width: 20em;
-    height: auto;
-    display: block;
-}
-
 
 /* :::::::::::::::::::::::::::::: TYPOGRAPHY */
 
@@ -59,32 +52,22 @@ h4 {
     font-weight: 400;
 }
 
-ul {
-    margin: 20px;
-    padding: 20px;
-}
-
-#logo_name {
-    line-height: 1em;
-    display: block;
-}
-
 .w_title {
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1em;
 }
 
+.r_skl {
+    padding: auto;
+}
+
 article {
     margin: 0 1em;
 }
 
-#intro {
-    background-color: transparent;
-}
-
-.r_skl {
-    padding-left: 20em;
+.about-txt {
+    margin-top: 0;
 }
 
 
@@ -95,116 +78,10 @@ img {
 }
 
 #me {
-    max-width: 2em;
-    margin-left: 30%;
-}
-
-
-/* :::::::::::::::::::::::::::::: LINKS */
-
-a {
-    color: #ff7f50;
-    text-decoration: none;
-    /* No underlining */
-}
-
-a:hover,
-a:focus {
-    color: #cc6540;
-    text-decoration: underline;
-}
-
-a:visited {
-    /* visited link */
-    /* color: #ff7f50; */
-    /* We suggest using a different color here */
-    color: gray;
-}
-
-a:active {
-    /* selected link */
-    color: #994c30;
-}
-
-
-/* :::::::::::::::::::::::::::::: BUTTONS */
-
-.button {
-    display: inline-block;
-    background-color: #ffffff;
-    color: #17505C;
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #ffffff;
-    transition: 0.2s opacity;
-    border-radius: 100px;
-}
-
-.button:hover {
-    opacity: 0.8;
-    /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
-}
-
-.button.contact {
-    background-color: #893795;
-    color: #ffffff;
-    text-transform: uppercase;
-    border: 2px solid #893795;
-    border-radius: 20px;
-}
-
-.button.contact:hover {
-    background-color: #ffffff;
-    color: #000000;
-    opacity: 0.8;
-    /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
-}
-
-.button-icon {
-    display: inline-block;
-    background-color: transparent;
-    color: #17505C;
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: transparent;
-    transition: 0.2s opacity;
-    border-radius: 80px;
-}
-
-#project-btn {
-    background-color: #893795;
-    color: #ffffff;
-    text-transform: uppercase;
-    border-radius: 20px;
-    margin-bottom: 400px;
-    padding: 10px;
-    transition: 0.2s opacity;
-}
-
-#welcome-box {
-    background-image: url("../img/img-dt/img_1x_dt/wte_bgrd_intro.png");
-    padding: 0px;
-    margin: 0px;
-    box-shadow: inset 0px 0px 40px 40px#f9f9f9;
-}
-
-
-/* :::::::::::::::::::::::::::::: TRANSITIONS */
-
-.button {
-    display: inline-block;
-    background-color: #ff7f50;
-    color: white;
-    font-weight: 400;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #994c30;
-    transition: 0.2s opacity;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 calc(50% - 160px);
 }
 
 
@@ -264,12 +141,23 @@ a:active {
 /* :::::::::::::::::::::::::::::: LAYOUT */
 
 .row {
-    margin: 25px 0;
+    margin: 0 auto;
+}
+
+@media screenand (max-width:480px) {
+    .column:nth-child(1) {
+        display: none;
+    }
 }
 
 
-/*25px top and bottom,0 left and right */
+}
+.column {
+    width: 100%;
+    padding: 0 auto;
+}
 
+/*25px top and bottom,0 left and right */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -277,108 +165,199 @@ a:active {
     background-color: #ffffff;
 }
 
-
-/* :::::::::::::::::::::::::::::: HOMEPAGE */
-
-
 /* :::::::::::::::::::::::::::::: ABOUT PAGE */
-
 main .start #welcome-box {
     margin: 0;
 }
-
 .start {
     margin-top: 0;
 }
-
 .about-txt {
     margin-top: 0;
 }
-
 #welcome-box {
     background-image: url("../img/img-dt/img_1x_dt/wte_bgrd_intro.png");
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center top;
-    padding-bottom: 100px;
-    margin: 0px;
-    z-index: 10;
+    margin-top: 500px;
+    padding: 0 0 0 70px;
+    box-shadow: inset 0px 0px 40px 40px#f9f9f9;
 }
-
 #welcome-box,
 h1,
 #about-txt {
     font-weight: bold;
     text-align: center;
+    padding-top: 5em;
 }
-
 h2,
 #story-title {
     text-align: center;
 }
 
-#about_txt {
-    padding-top: 2em;
+/* :::::::::::::::::::::::::::::: LINKS */
+a {
+    color: #ff7f50;
+    text-decoration: none;
+    /* No underlining */
+}
+a:hover,
+a:focus {
+    color: #cc6540;
+    text-decoration: underline;
+}
+a:visited {
+    /* visited link */
+    /* color: #ff7f50; */
+    /* We suggest using a different color here */
+    
+    color: gray;
+}
+a:active {
+    /* selected link */
+    
+    color: #994c30;
 }
 
+/* :::::::::::::::::::::::::::::: BUTTONS */
+.button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #17505C;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #ffffff;
+    transition: 0.2s opacity;
+    border-radius: 100px;
+}
+.button:hover {
+    opacity: 0.8;
+    /* Reduces the opacity of the button to 80% */
+    
+    text-decoration: none;
+}
+.button.contact {
+    background-color: #893795;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 2px solid #893795;
+    border-radius: 20px;
+}
+.button.contact:hover {
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 0.8;
+    /* Reduces the opacity of the button to 80% */
+    
+    text-decoration: none;
+}
+.button-icon {
+    display: inline-block;
+    background-color: transparent;
+    color: #17505C;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: transparent;
+    transition: 0.2s opacity;
+    border-radius: 80px;
+}
+#project-btn {
+    background-color: #893795;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-bottom: 400px;
+    padding: 10px;
+    transition: 0.2s opacity;
+}
+
+/* :::::::::::::::::::::::::::::: TRANSITIONS */
+.button {
+    display: inline-block;
+    background-color: #ff7f50;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #994c30;
+    transition: 0.2s opacity;
+}
 
 /* :::::::::::::::::::::::::::::: Footer*/
-
 #contact {
     text-align: center;
 }
-
 footer {
-    background-color: black;
+    background-color: #A1ACC2;
+}
+footer .container {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 
-
 /* :::::::::::::::::::::::::::::: MEDIA QUERIES (In lesson 1.8) */
-
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-
 @media only screen and (min-width: 640px) {
-    .page-header {
+    header {
         text-align: unset;
         padding: 20px 0 13px;
     }
+    
     nav {
         width: auto;
         float: right;
         margin-top: 4px;
         margin-right: 2em;
     }
+    
     #hero span {
         display: block;
     }
+    
     main {
         padding-top: 3em;
         margin-left: auto;
         margin-right: auto;
     }
+    
     .row::after {
         content: "";
         clear: both;
         display: table;
     }
+    
     .col-md-6 {
         width: 50%;
         padding: 10px;
     }
+    
     .col-md-8 {
         width: 70%;
         padding: 10px;
         float: left;
     }
+    
     [class*="col-"] {
         float: left;
     }
+    
+    ul {
+        margin: 20px;
+        padding: 20px;
+    }
+    
     #about-page h3 {
         margin-top: 0;
     }
+    
     .container {
         max-width: 1200px;
         margin-left: auto;
@@ -387,16 +366,20 @@ Medium devices (640px and larger)
         -webkit-box-shadow: 14px 28px 28px 0px rgba(202, 202, 192, 0.45);
         -moz-box-shadow: 14px 28px 28px 0px rgba(202, 202, 192, 0.45);
     }
+    
     #logo {
         float: left;
     }
+    
     #dalname {
         float: left;
     }
+    
     #intro {
         background-color: transparent;
         box-shadow: none;
     }
+    
     #logo {
         max-width: 2em;
         margin-left: 1em;
@@ -405,6 +388,7 @@ Medium devices (640px and larger)
         text-align: center;
         margin-top: 1em;
     }
+    
     #dalname {
         color: #ffffff;
         margin-top: 2em;
@@ -415,6 +399,7 @@ Medium devices (640px and larger)
         text-align: center;
         font-family: 'Cinzel', serif;
     }
+    
     image .about #welcome-box {
         margin: 0;
         max-width: 20em;
@@ -423,15 +408,18 @@ Medium devices (640px and larger)
         background-repeat: no-repeat;
         background-position: center top;
     }
+    
     #story-title {
         margin-top: -10em;
         z-index: 100;
     }
+    
     #about_txt {
         padding-top: 2em;
         z-index: 150;
         text-align: center;
     }
+    
     #welcome-box {
         background-image: url("../img/img-dt/img_1x_dt/wte_bgrd_intro.png");
         background-size: 100%;
@@ -440,26 +428,34 @@ Medium devices (640px and larger)
         padding-bottom: 100px;
         margin: 0px;
     }
+    
     #me {
         max-width: 50em;
-        margin-left: 30%;
-        margin-top: 1em;
+        margin: auto;
+        display: block;
+        padding: 0 calc(50% - 160px);
     }
+    
     main {
         padding-top: 0;
         margin-left: 3em;
         margin-right: 3em;
     }
+    
     footer {
-        background-color: #111;
+        background-color: #A1ACC2;
+    }
+    
+    footer .container {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
     }
 }
-
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-
 @media only screen and (min-width: 1024px) {
     #welcome-box {
         background-image: url("../img/img-dt/img_1x_dt/wte_bgrd_intro.png");
@@ -469,61 +465,49 @@ Large devices (1024px or larger)
         padding-bottom: 100px;
         margin: 0px;
     }
+    
     main {
         padding-top: 0;
         margin-left: 3em;
         margin-right: 3em;
     }
+    
     #about_txt {
         z-index: 150;
         text-align: center;
-    }
-    .col-lg-4 {
-        width: 30%;
-        padding: 10px;
-        float: right;
-    }
-    #me {
-        max-width: 50em;
-        margin-left: 30%;
-        margin-top: 1em;
+        padding-top: 3em;
     }
 }
-
-
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-
-@media only screen and (min-width: 1440px) {
-    #welcome-box {
-        background-image: url("../img/img-dt/img_1x_dt/wte_bgrd_intro.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: center top;
-        padding-bottom: 100px;
-        margin: 0px;
-    }
-    main {
-        padding-top: 0;
-        margin-left: 3em;
-        margin-right: 3em;
-    }
-    #about_txt {
-        padding-top: 2em;
-        z-index: 150;
-        text-align: center;
-    }
-    #about_txt {
-        padding-top: 2em;
-        z-index: 200;
-        text-align: center;
-    }
+.col-lg-4 {
+    width: 30%;
+    padding: 10px;
+    float: right;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-lg-5 {
+    width: 40%;
+}
+.col-lg-7 {
+    width: 60%;
+}
+#welcome-box #me {
+    max-width: 50em;
+    margin-left: 30%;
+    margin-top: 1em;
+    display: block;
+    padding: 0 auto;
+}
+footer {
+    background-color: #A1ACC2;
+}
+footer .container {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 
-
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
-
-@media only screen and (min-width: 1920px) {}
+}
