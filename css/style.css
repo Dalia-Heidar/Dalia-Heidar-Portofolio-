@@ -345,6 +345,15 @@
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
     }
+    /* :::::::::::::::::::::::::::::: COOK PAGE */
+    
+    .cooktxt {
+        padding-top: 50em;
+    }
+    
+    .hero-section {
+        margin-top: -30em;
+    }
     /* :::::::::::::::::::::::::::::: MEDIA QUERIES (In lesson 1.8) */
     /* ==============================
 Medium devices (640px and larger)
@@ -531,5 +540,16 @@ Large devices (1024px or larger)
             box-shadow: none;
             -webkit-box-shadow: none;
             -moz-box-shadow: none;
+        }
+        /* :::::::::::::::::::::::::::::: COOK PAGE */
+        .cooktxt {
+            padding-top: 50em;
+        }
+        .hero-section {
+            margin-top: 0em;
+            padding-top: 1em;
+        }
+        .cookpic {
+            float: right;
         }
     }

@@ -51,26 +51,30 @@
     <main>
         <div class="hero-section">
             <!--this is the hero/welcome block start-->
-            <div class="welcome-section">
+            <div class="row">
                 <!--open 1st columns in welcome-section-->
 
-
-                <h1><span>Case Study: El Cook</span></h1>
-                <p>This is an intuitive Application that is very straightforward, where you can easily find Middle Eastern / Mediterranean Recipes with Choice of Kosher, Hallal and Christian Vegan-Fasting Recipes. (Instructional Articles, tutorial Videos
-                    and shows.) Connecting Users with suppliers of Oriental products, through advice or shipping services. - Local where they can see the availability of these products in their area to avoid wasting time on searching.</p>
+                <div class="column  col-md-6   col-lg-4">
+                    <h1 class="cooktxt"><span>Case Study: El Cook</span></h1>
+                    <p>This is an intuitive Application that is very straightforward, where you can easily find Middle Eastern / Mediterranean Recipes with Choice of Kosher, Hallal and Christian Vegan-Fasting Recipes. (Instructional Articles, tutorial Videos
+                        and shows.) Connecting Users with suppliers of Oriental products, through advice or shipping services. - Local where they can see the availability of these products in their area to avoid wasting time on searching.</p>
+                    </>
+                </div>
+                <!--close 1st columns in welcome-section-->
+                <div class="column  col-md-6   col-lg-4">
+                    <div>
+                        <picture class="cookpic">
+                            <source srcset="img/img_cook/1@600x.5.png" media="(max-width:767px)">
+                            <img src="img/img_cook/1@600x1.5.png" alt="El-COOK">
+                        </picture>
+                    </div>
+                </div>
             </div>
-            <!--close 1st columns in welcome-section-->
-
-            <div>
-                <picture>
-                    <source srcset="img/img_cook/1@600x.5.png" media="(max-width:767px)">
-                    <img src="img/img_cook/1@600x1.5.png" alt="El-COOK">
-                </picture>
-            </div>
-
-            <div>
-                <h4>ROLE</h4>
-                <p>UI/UX Designer</p>
+            <div class="row">
+                <div>
+                    <h4>ROLE</h4>
+                    <p>UI/UX Designer</p>
+                </div>
             </div>
 
             <div>
@@ -649,7 +653,7 @@
         </div>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
