@@ -347,12 +347,21 @@
     }
     /* :::::::::::::::::::::::::::::: COOK PAGE */
     
-    .cooktxt {
-        padding-top: 50em;
+    .wel_rect {
+        padding-top: -50em;
     }
     
-    .hero-section {
-        margin-top: -30em;
+    .maincolm {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .maincolm {
+        flex: 1 1 50%;
+    }
+    
+    .cooktxt {
+        padding-top: 0px;
     }
     /* :::::::::::::::::::::::::::::: MEDIA QUERIES (In lesson 1.8) */
     /* ==============================
