@@ -103,8 +103,8 @@
         line-height: 1em;
         display: inline-block;
         text-align: center;
-        margin-top: 1em;
-        padding: 10px 0 4px;
+        margin-top: 15px;
+        padding: 0px;
     }
     
     #dalname {
@@ -175,6 +175,14 @@
     
     .navtoggle.responsive li:last-child {
         padding: 0 0 10px;
+    }
+    
+    .navtoggle li .icon svg {
+        margin-top: 25px;
+    }
+    
+    .navtoggle .icon rect {
+        fill: white;
     }
     
     #nav-menu>ul>li>a {
@@ -391,6 +399,11 @@
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
     }
+    /* :::::::::::::::::::::::::::::: HOME PAGE */
+    
+    #work-section2 .project_content {
+        padding-bottom: 25px;
+    }
     /* :::::::::::::::::::::::::::::: COOK PAGE */
     
     .wel_rect {
@@ -409,6 +422,43 @@
     .cooktxt {
         padding-top: 0px;
     }
+    
+    .numb-box {
+        background-color: #fff;
+        border-radius: 1em;
+        max-width: 300px;
+        float: left;
+        max-height: 500px;
+        margin-bottom: 20px;
+    }
+    
+    .num_txt {
+        padding: 0 50px;
+    }
+    
+    .num {
+        padding: 0 80px;
+        font-weight: bold;
+    }
+    
+    #smpl1 img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    
+    #smpl2 img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+    .smpl3 img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+    p {
+        padding: 1em;
+    }
     /* :::::::::::::::::::::::::::::: MEDIA QUERIES (In lesson 1.8) */
     /* ==============================
 Medium devices (640px and larger)
@@ -418,6 +468,9 @@ Medium devices (640px and larger)
         header {
             text-align: unset;
             padding: 20px 0 13px;
+        }
+        #page-header {
+            padding-bottom: 10px;
         }
         .nav-menu {
             width: auto;
@@ -429,6 +482,7 @@ Medium devices (640px and larger)
             list-style-type: none;
             padding: 0;
             float: right;
+            margin-top: 10px;
         }
         .navtoggle li:not(:last-child) {
             display: inline-block;
@@ -499,7 +553,7 @@ Medium devices (640px and larger)
         }
         #dalname {
             color: #ffffff;
-            margin-top: 2em;
+            margin-top: 35px;
             margin-left: 1em;
             display: inline-block;
             padding: 0;
@@ -572,6 +626,13 @@ Large devices (1024px or larger)
             margin-top: -2em;
             margin-bottom: 2em;
         }
+        .col-md-3 {
+            width: 25%;
+            padding: 10px;
+        }
+        #problem-section {
+            display: block;
+        }
         .col-lg-4 {
             width: 30%;
             padding: 10px;
@@ -614,7 +675,7 @@ Large devices (1024px or larger)
         }
         /* :::::::::::::::::::::::::::::: COOK PAGE */
         .cooktxt {
-            padding-top: 50em;
+            padding-top: 3em;
         }
         .hero-section {
             margin-top: 0em;
